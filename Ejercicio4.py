@@ -1,4 +1,4 @@
-#Ejercicio 5:
+#Ejercicio 4:
 class Biblioteca:
     def __init__(self):
         self.libros = [] # Creo una lista vacia para almacenar los libros
@@ -31,6 +31,7 @@ class Biblioteca:
     def agregar_al_final(self, libro):
         self.libros.append(libro)
 
+#Metodos:
     def __len__(self):
         return len(self.libros) 
 
@@ -49,8 +50,3 @@ class Biblioteca:
             return nueva
         return NotImplemented
 
-    def contar_libros(biblioteca):
-        contador = 0
-        for libro in biblioteca.libros:   # recorre la lista de libros
-            contador += 1
-        return contador
